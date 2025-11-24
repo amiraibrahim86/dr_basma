@@ -121,7 +121,9 @@ const Dashboard = () => {
             
             {/* Management Tabs chatGPT suggestion */}
 <Tabs defaultValue="courses" className="space-y-6" dir="rtl">
-  <TabsList className="flex justify-end w-full max-w-3xl gap-2 border-b border-border pb-2">
+   < TabsList className="flex justify-end w-full max-w-3xl gap-2 border-b border-border pb-2 
+             overflow-x-auto whitespace-nowrap no-scrollbar"
+>
     <TabsTrigger
       value="courses"
       className="relative px-2 py-2 text-sm font-medium text-gray-600 data-[state=active]:text-primary
