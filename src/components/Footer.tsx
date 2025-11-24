@@ -8,7 +8,7 @@ const Footer = () => {
 
   const handleWhatsAppClick = () => {
     // Open WhatsApp in a new tab – no href involved
-    const url ="https://api.whatsapp.com/message/IFEAWYSTJ2DUE1?autoload=1&app_absent=0";
+    const url ="https://wa.me/201555676851";
     
   // Simple mobile detection
   const isMobile = /Mobi|Android/i.test(navigator.userAgent);
